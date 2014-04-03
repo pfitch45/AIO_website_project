@@ -1,0 +1,27 @@
+#upper{
+	border-top: 10px double #DFE4E8;
+	margin-top: 60px;
+	position: relative;
+
+}
+
+.menu {
+	list-style-type:none;
+	margin-left: 435px;
+	margin-top: 100px;
+	margin-bottom: -130px;
+	padding:0;
+	position: relative;
+}
+
+.numbers {
+	text-align: right;
+}
+
+li {
+	display: inline;
+	font-family: Verdana;
+	font-size: 20px;
+	margin: 0 0 0 30px;
+
+}
