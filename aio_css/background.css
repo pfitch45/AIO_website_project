@@ -1,3 +1,23 @@
 body {
 	background: url('../images/wood_floor.jpg') no-repeat;
 }
+
+#title {
+	text-align: center;
+}
+
+h1 {
+	font-family: Verdana;
+	font-size: 45px;
+	font-weight: bolder;
+	font-style: italic;
+	margin: 0;
+}
+
+h3 {
+	margin: 0;
+	font-family: Verdana;
+	font-size: 23px;
+	font-weight: bolder;
+
+}
