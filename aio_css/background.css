@@ -1,5 +1,13 @@
+/* {
+	margin: 0 auto;
+	width:auto;
+	height: auto;
+}*/
+
 body {
 	background: url('../images/wood_floor.jpg') no-repeat;
+	width: 890px;
+	margin: 0 auto;
 }
 
 #title {
