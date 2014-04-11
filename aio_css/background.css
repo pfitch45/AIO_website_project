@@ -4,7 +4,7 @@
 	height: auto;
 }*/
 
-body {
+/*body {
 	background: url('../images/wood_floor.jpg') no-repeat;
 	width: 890px;
 	margin: 0 auto;
@@ -13,7 +13,7 @@ body {
 #title {
 	text-align: center;
 }
-
+*/
 h1 {
 	font-family: Verdana;
 	font-size: 45px;
@@ -27,15 +27,20 @@ h3 {
 	font-family: Verdana;
 	font-size: 23px;
 	font-weight: bolder;
-
 }
+
+h2 {
+ 		font-family: Verdana;
+ 		font-weight: bolder;
+ 		margin: 0;
+ 		font-size: 32px;
+ 		position: relative;
+ 		top: 30px;
+ 		text-align: center;
+}
+ 	
 .main {
 	font-family: Helvetica;
 	font-size: 16px;
 	font-weight: bold;
-}
-
-img {
-	position: relative;
-	left: 125px;
 }

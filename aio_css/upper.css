@@ -1,7 +1,12 @@
 #upper{
 	border-bottom: 10px double #DFE4E8;
 	position: relative;
-	height: 130px;
+	height: 150px;
+}
+
+#wrapper {
+	background-color: #FFF;
+	opacity: .6;
 }
 
 .menu {
@@ -15,7 +20,7 @@
 
 .numbers {
 	font-family: Verdana;
-	font-size: 22px;
+	font-size: 21px;
 	float: right;
 	position: relative;
 	top: 28px;
@@ -27,6 +32,7 @@
 	display: inline;
 	float: right;
 	padding-top: 10px;
+	font-size: 15px;
 }
 
 li {

@@ -1,11 +1,12 @@
 .footer {
-	position: relative;
-	left: 0;
 	bottom: 0;
 	height: 50px;
-
+	width: 890px;
+	left: auto;
+	right: auto;
 }
 
-p {
+.footer p {
 	position: relative;
+	font-size: 15px;
 }
