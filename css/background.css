@@ -1,25 +1,8 @@
-/* {
-	margin: 0 auto;
-	width:auto;
-	height: auto;
-}*/
-
-/*body {
-	background: url('../images/wood_floor.jpg') no-repeat;
-	width: 890px;
-	margin: 0 auto;
-}
-
-#title {
-	text-align: center;
-}
-*/
-h1 {
-	font-family: Verdana;
+span {
 	font-size: 45px;
-	font-weight: bolder;
+	font-family: Verdana;
 	font-style: italic;
-	margin: 0;
+	font-weight: bolder;
 }
 
 h3 {
@@ -41,6 +24,10 @@ h2 {
  	
 .main {
 	font-family: Helvetica;
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: bold;
+	line-height: 24px;
+	margin: 0 auto;
+	width: 890px;
+
 }

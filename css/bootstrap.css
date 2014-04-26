@@ -11,14 +11,8 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 body {
-  margin: 0;
-  background: url('../images/wood_floor.jpg') no-repeat;
-  width: 890px;
+  background-color: FFFFFF;
   margin: 0 auto;
-}
-
-#title {
-  text-align: center;
 }
 
 article,
@@ -204,16 +198,15 @@ th {
   box-sizing: border-box;
 }
 html {
-  font-size: 62.5%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-body {
+/*body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: black;
   background-color: #ffffff;
-}
+}*/
 input,
 button,
 select,

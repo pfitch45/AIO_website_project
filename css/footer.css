@@ -2,11 +2,11 @@
 	bottom: 0;
 	height: 50px;
 	width: 890px;
-	left: auto;
-	right: auto;
+	margin: 0 auto;
 }
 
 .footer p {
 	position: relative;
 	font-size: 15px;
+	font-weight: normal;
 }

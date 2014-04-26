@@ -1,36 +1,46 @@
+#headPic {
+	background: url('../images/wood_floor.jpg') no-repeat;
+}
+
 #upper{
 	border-bottom: 10px double #DFE4E8;
 	position: relative;
-	height: 150px;
-}
-
-#wrapper {
-	background-color: #FFF;
-	opacity: .6;
+	height: 300px;
+	margin: 0 auto;
+	width: 890px;
 }
 
 .menu {
 	list-style-type: none;
 	padding: 0;
 	margin: 0 auto;
+	text-align: center;
 	position: relative;
-	left: 160px;
-	top: 105px;
+	top: 175px;
+}
+.menu ul {
+	padding: 0;
+}
+
+.menu li > a {
+	font-weight: bold;
+}
+
+#title {
+  text-align: center;
+  position: relative;
+	top: -55px;
 }
 
 .numbers {
 	font-family: Verdana;
 	font-size: 21px;
-	float: right;
-	position: relative;
-	top: 28px;
-	left: 107px;
-	width: 21%;
+	text-align: right;
+	padding: 10px 0;
 }
 
 .esp {
-	display: inline;
-	float: right;
+	text-align: right;
 	padding-top: 10px;
 	font-size: 15px;
 }
@@ -51,9 +61,9 @@ a:visited {
 	color: black;
 }
 a:hover {
-	color: yellow;
+	color: green;
 	text-decoration: none;
 }
 a:active {
-	color: orange;
+	color: red;
 }
