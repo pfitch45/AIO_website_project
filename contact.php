@@ -20,21 +20,21 @@
         <div id="headPic">	
             <div id="upper">
     			<div class="esp">
-    				<a href="AIOindex_spanish.html">Sitio en Espan&#771;ol</a>
+    				<a href="AIOindex_spanish.php">Sitio en Espan&#771;ol</a>
     			</div>
     			<div class="numbers">
     				<strong>(510)755-2974</strong>
     			</div>     
     			  <div class="menu">
                     <ul>
-        			  <li><a href="services.html">Services</a></li>
-        			  <li><a href="gallery.html">Gallery</a></li>
-        			  <li><a href="testimonials.html">Testimonials</a></li>
-        			  <li><a href="contact.html">Contact Us</a></li>
+        			  <li><a href="services.php">Services</a></li>
+        			  <li><a href="gallery.php">Gallery</a></li>
+        			  <li><a href="testimonials.php">Testimonials</a></li>
+        			  <li><a href="contact.php">Contact Us</a></li>
     			    </ul>
     		      </div>
                  <div id="title">
-               <a href="AIOindex.html"><span>All In One</span></a>
+               <a href="index.php"><span>All In One</span></a>
                <h3>Furniture Assembly and Installation Solutions</h3>
             </div>
             </div>
@@ -49,25 +49,25 @@
         <div>
                 <label>
                         <span>Name:</span>
-                        <input type="text" name="Name" tabindex="1" required autofocus>
+                        <input type="text" name="name" tabindex="1" required autofocus>
                 </label>
         </div>
         <div>
                 <label>
                         <span>Email:</span>
-                        <input type="email" name="Email" tabindex="2" required>
+                        <input type="email" name="email" tabindex="2" required>
                 </label>
         </div>
         <div>
                 <label>
                         <span>Telephone:</span>
-                        <input type="tel" name="Telephone" tabindex="3" required>
+                        <input type="tel" name="telephone" tabindex="3" required>
                 </label>
         </div>
         <div>
                 <label>
                         <span>Message:</span>
-                        <textarea tabindex="4" name="Message" required></textarea>
+                        <textarea tabindex="4" name="message" required></textarea>
                 </label>
         </div>
         <div>

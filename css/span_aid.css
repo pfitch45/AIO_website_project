@@ -1,9 +1,4 @@
-#headPic {
-	background: url('../images/wood_floor.jpg') no-repeat;
-}
-
 #arriba{
-	border-bottom: 10px double #DFE4E8;
 	position: relative;
 	height: 300px;
 	margin: 0 auto;
@@ -16,7 +11,7 @@
 	margin: 0 auto;
 	position: relative;
 	text-align: center;
-	top: 175px;
+	top: 185px;
 }
 .lista ul {
 	padding: 0;

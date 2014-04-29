@@ -1,9 +1,4 @@
-#headPic {
-	background: url('../images/wood_floor.jpg') no-repeat;
-}
-
 #upper{
-	border-bottom: 10px double #DFE4E8;
 	position: relative;
 	height: 300px;
 	margin: 0 auto;
@@ -16,7 +11,7 @@
 	margin: 0 auto;
 	text-align: center;
 	position: relative;
-	top: 175px;
+	top: 185px;
 }
 .menu ul {
 	padding: 0;

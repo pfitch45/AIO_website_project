@@ -1,3 +1,8 @@
+#headPic {
+	background: url('../images/wood_floor.jpg') no-repeat;
+	border-bottom: 10px double rgb(153,153,153);
+}
+
 span {
 	font-size: 45px;
 	font-family: Verdana;
@@ -21,13 +26,13 @@ h2 {
  		top: 30px;
  		text-align: center;
 }
- 	
+
 .main {
+	color: #213266;
 	font-family: Helvetica;
 	font-size: 18px;
 	font-weight: bold;
 	line-height: 24px;
 	margin: 0 auto;
 	width: 890px;
-
 }

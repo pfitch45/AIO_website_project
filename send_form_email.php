@@ -1,3 +1,10 @@
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+  <h1>test1</h1>
+
 <?php
  
 if(isset($_POST['email'])) {
@@ -34,13 +41,13 @@ if(isset($_POST['email'])) {
  
     // validation expected data exists
  
-    if(!isset($_POST['Name']) ||
+    if(!isset($_POST['name']) ||
  
-        !isset($_POST['Email']) ||
+        !isset($_POST['email']) ||
  
-        !isset($_POST['Telephone']) ||
+        !isset($_POST['telephone']) ||
  
-        !isset($_POST['Message'])) {
+        !isset($_POST['message'])) {
  
         died('We are sorry, but there appears to be a problem with the form you submitted.');       
  
@@ -48,13 +55,13 @@ if(isset($_POST['email'])) {
  
      
  
-    $first_name = $_POST['Name']; // required
+    $name = $_POST['name']; // required
  
-    $email_from = $_POST['Email']; // required
+    $email_from = $_POST['email']; // required
  
-    $telephone = $_POST['Telephone']; // not required
+    $telephone = $_POST['telephone']; // not required
  
-    $comments = $_POST['Message']; // required
+    $comments = $_POST['message']; // required
  
      
  
@@ -70,13 +77,13 @@ if(isset($_POST['email'])) {
  
     $string_exp = "/^[A-Za-z .'-]+$/";
  
-  if(!preg_match($string_exp,$Name)) {
+  if(!preg_match($string_exp,$name)) {
  
     $error_message .= 'The Name you entered does not appear to be valid.<br />';
  
   }
  
-  if(strlen($Message) < 2) {
+  if(strlen($comments) < 2) {
  
     $error_message .= 'The Message you entered does not appear to be valid.<br />';
  
@@ -88,7 +95,7 @@ if(isset($_POST['email'])) {
  
   }
  
-    $email_message = "Form details below.\n\n";
+    $comments = "Form details below.\n\n";
  
      
  
@@ -102,13 +109,13 @@ if(isset($_POST['email'])) {
  
      
  
-    $email_message .= "Name: ".clean_string($first_name)."\n";
+    $comments .= "Name: ".clean_string($name)."\n";
  
-    $email_message .= "Email: ".clean_string($email_from)."\n";
+    $comments .= "Email: ".clean_string($email_from)."\n";
  
-    $email_message .= "Telephone: ".clean_string($telephone)."\n";
+    $comments .= "Telephone: ".clean_string($telephone)."\n";
  
-    $email_message .= "Message: ".clean_string($comments)."\n";
+    $comments .= "Message: ".clean_string($comments)."\n";
  
      
  
@@ -121,23 +128,25 @@ $headers = 'From: '.$email_from."\r\n".
 'Reply-To: '.$email_from."\r\n" .
  
 'X-Mailer: PHP/' . phpversion();
- 
-@mail($email_to, $email_subject, $email_message, $headers);  
- 
+
+  if (mail($email_to, $email_subject, $comments, $headers)) {
+
 ?>
  
- 
- 
-<!-- include your own success html here -->
- 
- 
- 
 Thank you for contacting us. We will be in touch with you very soon.
- 
- 
- 
+
 <?php
+   
+  } else {
+?>
  
+There was an error submitting your message.
+
+<?php
+  }
 }
  
 ?>
+
+</body>
+</html>

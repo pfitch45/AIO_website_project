@@ -22,7 +22,7 @@
         <div id="headPic">
           	<div id="arriba">
     			<div class="eng">
-    				<a href="AIOindex.html">Website in English</a>
+    				<a href="index.php">Website in English</a>
     			</div>
     			<div id="info">
     				<strong>(510)755-2974</strong>
@@ -30,14 +30,14 @@
     			  <div class="lista">
                     <ul>
     			  	<strong>
-    				  <li><a href="servi.html">Servicios</a></li>
-    				  <li><a href="galeria.html">Galeria</a></li>
-    				  <li><a href="recom.html">Recomendacio&#769nes</a></li>
-    				  <li><a href="coms.html">Comuniquese</a></li>  
+    				  <li><a href="servi.php">Servicios</a></li>
+    				  <li><a href="galeria.php">Galeria</a></li>
+    				  <li><a href="recom.php">Recomendacio&#769nes</a></li>
+    				  <li><a href="coms.php">Comuniquese</a></li>  
     			</ul>
     		  </div>
                 <div id="title">
-              <a href="AIOindex_spanish.html"><span>All In One</span></a>
+              <a href="AIOindex_spanish.php"><span>All In One</span></a>
                 <h3>Armado e Instalacio&#769n de Muebles</h3>
             </div>
     	   </div>

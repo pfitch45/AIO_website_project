@@ -1,41 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-   	<title>All In One Services: Gallery</title>
-   	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+<html lang="es">
+  <head>
+  	  <meta charset="utf-8">
+  	  <title>Galeria</title>
+  	  <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
 
-   	<link href="css/bootstrap.css" type="text/css" rel="stylesheet"/>
+  	  <link href="css/bootstrap.css" type="text/css" rel="stylesheet"/>
 
-	<link href="css/upper.css" type="text/css" rel="stylesheet"/>
- 	<link href="css/background.css" type="text/css" rel="stylesheet"/>
- 	<link href="css/footer.css" type="text/css" rel="stylesheet"/>
-</head>
-	<body>
-		<div id="headPic">
-			<div id="upper">
-				<div class="esp">
-					<a href="AIOindex_spanish.html">Sitio en Espan&#771ol</a>
+  	  <link href="css/background.css" type="text/css" rel="stylesheet"/>
+  	  <link href="css/footer.css" type="text/css" rel="stylesheet"/>
+  	  <link href="css/span_aid.css" type="text/css" rel="stylesheet"/>	
+  </head>
+      <body>
+      	<div id="headPic">
+	      	<div id="arriba">
+				<div class="eng">
+					<a href="index.php">Website in English</a>
 				</div>
-				<div class="numbers">
+				<div id="info">
 					<strong>(510)755-2974</strong>
 				</div>     
-				  <div class="menu">
+				  <div class="lista">
 				  	<ul>
-					  <li><a href="services.html">Services</a></li>
-					  <li><a href="gallery.html">Gallery</a></li>
-					  <li><a href="testimonials.html">Testimonials</a></li>
-					  <li><a href="contact.html">Contact Us</a></li> 
-				</ul>
+					  <li><a href="servi.php">Servicios</a></li>
+					  <li><a href="galeria.php">Galeria</a></li>
+					  <li><a href="recom.php">Recomendacio&#769nes</a></li>
+					  <li><a href="coms.php">Comuniquese</a></li> 
+				    </ul>
 			  </div>
-			  <div id="title">
-			  <a href="AIOindex.html"><span>All In One</span></a>
-			    <h3>Furniture Assembly and Installation Solutions</h3>
+			<div id="title">
+			  <a href="AIOindex_spanish.php"><span>All In One</span></a>
+			  	<h3>Armado e Instalacio&#769n de Muebles</h3>
 	        </div>
-			</div>
+	        </div>
 		</div>
-		<div class="main">	
-			<div id="this-carousel-id" class="carousel slide">
+		<div class="main">
+		<div id="this-carousel-id" class="carousel slide">
 				<ol class="carousel-indicators">
 					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 					<li data-target="#myCarousel" data-slide-to="1"></li>
@@ -146,10 +146,9 @@
 					    });
 					  });
 					</script>
-		        </div>
-	    </div>        
+		</div>		
 		<div class="footer">
-			<p>&copy;2014 Website design by 7-6-2</p>
+			<p>&copy;2014 sitio disen&#771ado por 7-6-2</p>
 		</div>
-	</body>
-</html>
+      </body>
+</html>    
