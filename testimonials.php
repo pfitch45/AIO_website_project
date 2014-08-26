@@ -35,7 +35,8 @@
 			  </div>
 	    </div> 
 	    <div class="main">
-	    	<p>No text yet.</p>
+	    	<p>No text yet.No text yet.No text yet.No text yet.No text yet.No text yet.No text yet.No text yet.No text yet.No text yet.No text yet.</p>
+	    	<p>--Someone wit no name</p>
 	    </div>  
 		<div class="footer">
 			<p>&copy;2014 Website design by 7-6-2</p>

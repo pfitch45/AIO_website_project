@@ -35,7 +35,8 @@
 			</div>
 		</div>
 		<div class="main">
-			<p>No text yet.</p>
+			<p>We have service ABC which consists of XYZ.  We're good with all the brands and the tools</p>
+			<p>We specialize in loremn, ipsum, unum,latin, stuff</p>
 	    </div>	
 		<div class="footer">
 			<p>&copy;2014 Website design by 7-6-2</p>

@@ -1,11 +1,6 @@
-<html>
-<head>
-  <title></title>
-</head>
-<body>
-  <h1>test1</h1>
-
 <?php
+
+//Oriignally I found this code online.  It worked OK.  Special thanks to John for making it work even better.
  
 if(isset($_POST['email'])) {
  
@@ -61,7 +56,7 @@ if(isset($_POST['email'])) {
  
     $telephone = $_POST['telephone']; // not required
  
-    $comments = $_POST['message']; // required
+    $message = $_POST['message']; // required
  
      
  
@@ -83,7 +78,7 @@ if(isset($_POST['email'])) {
  
   }
  
-  if(strlen($comments) < 2) {
+  if(strlen($message) < 2) {
  
     $error_message .= 'The Message you entered does not appear to be valid.<br />';
  
@@ -115,7 +110,7 @@ if(isset($_POST['email'])) {
  
     $comments .= "Telephone: ".clean_string($telephone)."\n";
  
-    $comments .= "Message: ".clean_string($comments)."\n";
+    $comments .= "Message: ".clean_string($message)."\n";
  
      
  
@@ -131,22 +126,17 @@ $headers = 'From: '.$email_from."\r\n".
 
   if (mail($email_to, $email_subject, $comments, $headers)) {
 
-?>
- 
-Thank you for contacting us. We will be in touch with you very soon.
-
-<?php
-   
+    /* Redirect browser */
+    header("Location: index.php?message_success=true");
+     
+    /* Make sure that code below does not get executed when we redirect. */
+    exit;
   } else {
-?>
- 
-There was an error submitting your message.
 
-<?php
+    /* Redirect browser */
+    header("Location: index.php?message_success=false");
+     
+    /* Make sure that code below does not get executed when we redirect. */
+    exit;
   }
 }
- 
-?>
-
-</body>
-</html>
