@@ -1,5 +1,5 @@
 #headPic {
-	background: url('../images/wood_floor.jpg') no-repeat;
+	background-color: #F7F7F2;
 	border-bottom: 10px double rgb(153,153,153);
 }
 
@@ -12,7 +12,7 @@ span {
 
 h3 {
 	margin: 0;
-	font-family: Verdana;
+	font-family: Trebuchet MS;
 	font-size: 23px;
 	font-weight: bolder;
 }
@@ -31,8 +31,9 @@ h2 {
 	color: #213266;
 	font-family: Helvetica;
 	font-size: 18px;
-	font-weight: bold;
+	font-weight: bold;z
 	line-height: 24px;
 	margin: 0 auto;
 	width: 890px;
+	padding-top: 35px;
 }

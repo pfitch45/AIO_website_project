@@ -1,17 +1,18 @@
 #arriba{
 	position: relative;
-	height: 300px;
+	height: 220px;
 	margin: 0 auto;
 	width: 890px;
 }
 
 .lista {
 	list-style-type: none;
-	padding: 0;
+	padding-top: 20px;
 	margin: 0 auto;
 	position: relative;
 	text-align: center;
-	top: 185px;
+	bottom: 80px;
+	right: 208px;
 }
 .lista ul {
 	padding: 0;
@@ -24,7 +25,7 @@
 #title {
   text-align: center;
   position: relative;
-	top: -55px;
+	top: -40px;
 }
 
 #info{
@@ -43,7 +44,7 @@
 li {
 	display: inline;
 	font-family: Verdana;
-	font-size: 20px;
+	font-size: 18px;
 	margin: 0 0 0 10px;
 
 }
