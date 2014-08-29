@@ -1,11 +1,16 @@
+/* #F7F7F2
+
+   #F2F2F7*/
+
 #headPic {
-	background-color: #F7F7F2;
-	border-bottom: 10px double rgb(153,153,153);
+	background-color: #000000;
+	opacity: 0.5;
+
 }
 
 span {
 	font-size: 45px;
-	font-family: Verdana;
+	font-family: Courier New;
 	font-style: italic;
 	font-weight: bolder;
 }
@@ -28,7 +33,7 @@ h2 {
 }
 
 .main {
-	color: #213266;
+	color: #c43800;
 	font-family: Helvetica;
 	font-size: 18px;
 	font-weight: bold;z
@@ -36,4 +41,9 @@ h2 {
 	margin: 0 auto;
 	width: 890px;
 	padding-top: 35px;
+}
+
+#upper,
+#arriba {
+	color: #ffffff;
 }

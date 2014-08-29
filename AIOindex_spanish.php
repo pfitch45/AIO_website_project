@@ -4,9 +4,8 @@
 	<meta charset="utf-8">
    	<title>Servicios All In One</title>
 	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
- 	
+	<link href="css/index_pic.css" type="text/css" rel="stylesheet"/>
 	<link href="css/bootstrap.css" type="text/css" rel="stylesheet"/>
-
  	<link href="css/background.css" type="text/css" rel="stylesheet"/>
  	<link href="css/footer.css" type="text/css" rel="stylesheet"/>
  	<link href="css/span_aid.css" type="text/css" rel="stylesheet"/>
@@ -33,17 +32,24 @@
 			    <h3>Armado e Instalacio&#769n de Muebles</h3>
 			</div>  
 	        </div>
-		</div>	
+		</div>
+		<div class="main-container">	
 		<div class="main">
 			<p>Sample Text</p>
 			<p>Lorem Ipsum</p>
-        	<p>Sample text</p>
-        	<p>Sample text</p>
-        	<img style="position: relative; left: 125px;"  src="images/640x480.gif" height="480" width="640"> 
-        	<p>Sample Text</p>
-        	<p>Sample Text</p>
-        	<p>Sample Text</p> 
+			<p>Sample Text</p>
+	        <p>Sample Text</p>
+	        <p>Sample Text</p>
+	       	<p>Sample Text</p>
+	       	<p>Sample Text</p>
+	       	<p>Sample Text</p>
+	       	<p>Sample Text</p>
+	       	<p>Sample Text</p>
+	       	<p>Sample Text</p>
+	       	<p>Sample Text</p>
+	       	<p>Sample Text</p>    	
         </div>	   
+        </div>
 		<div class="footer">
 			<p>&copy;2014 sitio disen&#771ado por 7-6-2</p>
 		</div>

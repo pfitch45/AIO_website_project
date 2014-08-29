@@ -10,11 +10,34 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
-body {
-  background-color: #F2F2F7;
-  margin: 0 auto;
+
+/*html {
+  background: url(../images/home.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.myBackground.jpg', sizingMethod='scale');
+-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='myBackground.jpg', sizingMethod='scale')";
 }
 
+body {
+  background-image: url(../images/home.jpg); 
+background-repeat: no-repeat;
+background-position: center;
+background-size: 90% 90%;
+
+
+
+}
+
+.main-container {
+background-image: url(../images/home.jpg); 
+background-repeat: no-repeat;
+background-position: center;
+background-size: 100% 100%;
+
+}*/
 article,
 aside,
 details,

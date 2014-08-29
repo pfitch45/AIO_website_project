@@ -51,10 +51,10 @@ li {
 
 a:link {
 	text-decoration: none;
-	color: black;
+	color: white;
 }
 a:visited {
-	color: black;
+	color: white;
 }
 a:hover {
 	color: green;
