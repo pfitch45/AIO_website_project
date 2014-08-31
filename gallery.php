@@ -149,7 +149,17 @@
 		        </div>
 	    </div>        
 		<div class="footer">
-			<p>&copy;2014 Website design by 7-6-2</p>
+			<div id="footer-menu">
+                    <ul>
+                      <li><a href="services.php">Services</a></li>
+                      <li><a href="gallery.php">Gallery</a></li>
+                      <li><a href="testimonials.php">Testimonials</a></li>
+                      <li><a href="contact.php">Contact Us</a></li>
+                </ul>
+                </div>
+                <div id="footer-text">
+                <p>&copy;2014 Website design by 7-6-2</p>
+                </div>
 		</div>
 	</body>
 </html>

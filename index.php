@@ -34,7 +34,6 @@
 			</div>
 			</div>
 		</div>	
-		<!--<div class="main-container">-->
 			<div class="main">   
 				<h4 style="text-align: center;">Welcome to All In One Services, your destination for your commercial or residential furniture assembly or installation needs!</h4> 
 			    <p style="text-align: center;">We serve the entire Bay Area and boast of same-day service.<br>At All In One Solutions, our specialty is piecing together RTA (Ready-to-Assemble) from any manufacturer. <br>Please see our <a style="text-style" href="services.php"><u>Services</u></a> page for a full menu of what All In One can offer you.</p>
@@ -62,8 +61,17 @@
 	        	<p>Sample Text</p>  
 	        </div> 
 			<div class="footer">
+				<div id="footer-menu">
+					<ul>
+					  <li><a href="services.php">Services</a></li>
+					  <li><a href="gallery.php">Gallery</a></li>
+					  <li><a href="testimonials.php">Testimonials</a></li>
+					  <li><a href="contact.php">Contact Us</a></li>
+				</ul>
+				</div>
+				<div id="footer-text">
 				<p>&copy;2014 Website design by 7-6-2</p>
-		     </div>
-	   <!-- </div>-->
+		        </div>
+	        </div>
 	</body>
 </html>

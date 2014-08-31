@@ -1,12 +1,31 @@
 .footer {
 	bottom: 0;
 	height: 50px;
-	width: 890px;
 	margin: 0 auto;
+	background-color: #000000;
+	opacity: 0.5;
 }
 
-.footer p {
+#footer-text {
 	position: relative;
+	margin: 0 auto;
 	font-size: 15px;
 	font-weight: normal;
+	color: #ffffff;
+	top: -20px;
+	left: 175px;
+}
+
+#footer-menu{
+	width: 890px;
+	position: relative;
+	margin: 0 auto;
+	left: 50px;
+}
+
+#footer-menu li {
+	position: relative;
+	left: 450px;
+	top: 15px;	
+	font-size: 15px;
 }
