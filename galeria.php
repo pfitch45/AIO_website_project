@@ -21,9 +21,8 @@
 				</div>     
 				  <div class="lista">
 				  	<ul>
-					  <li><a href="servi.php">Servicios</a></li>
+					  <li><a href="servi.php">Servicios y Informacio&#769n</a></li>
 					  <li><a href="galeria.php">Galeria</a></li>
-					  <li><a href="infoSpan.php">Informacio&#769n</a></li>
 					  <li><a href="coms.php">Comuniquese</a></li> 
 				    </ul>
 			  </div>

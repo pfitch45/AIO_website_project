@@ -21,9 +21,8 @@
 				</div>     
 				  <div class="menu">
 				  	<ul>
-					  <li><a href="services.php">Services</a></li>
+					  <li><a href="services.php">Services and Information</a></li>
 					  <li><a href="gallery.php">Gallery</a></li>
-					  <li><a href="info.php">Information</a></li>
 					  <li><a href="contact.php">Contact Us</a></li> 
 				</ul>
 			  </div>
