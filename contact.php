@@ -7,6 +7,7 @@
     <link href="css/bootstrap.css" type="text/css" rel="stylesheet"/>
     <link href="css/upper.css" type="text/css" rel="stylesheet"/>
  	<link href="css/background.css" type="text/css" rel="stylesheet"/>
+    <link href='http://fonts.googleapis.com/css?family=Michroma' rel='stylesheet' type='text/css'>
  	<link href="css/footer.css" type="text/css" rel="stylesheet"/>
     <link href="css/form.css" type="text/css" rel="stylesheet"/>
     <style type="text/css">
@@ -29,7 +30,7 @@
                     <ul>
         			  <li><a href="services.php">Services</a></li>
         			  <li><a href="gallery.php">Gallery</a></li>
-        			  <li><a href="testimonials.php">Testimonials</a></li>
+        			  <li><a href="info.php">Information</a></li>
         			  <li><a href="contact.php">Contact Us</a></li>
     			    </ul>
     		      </div>
@@ -44,23 +45,22 @@
         <div id="formContainer">
             <form id="contact-form" name="contactform" method="post" action="send_form_email.php">
 			<!-- <form id="contact-form" action="/" method="post"> -->
-        <h3>Get in touch</h3>
-        <h4>Fill in the form below, and we'll get back to you within 24 hours.</h4>
+        <h3>Get in touch</h3><br/>
         <div>
                 <label>
-                        <span>Name:</span>
+                        <span>Your Name:</span>
                         <input type="text" name="name" tabindex="1" required autofocus>
                 </label>
         </div>
         <div>
                 <label>
-                        <span>Email:</span>
+                        <span>Your Email:</span>
                         <input type="email" name="email" tabindex="2" required>
                 </label>
         </div>
         <div>
                 <label>
-                        <span>Telephone:</span>
+                        <span>Your Phone Number:</span>
                         <input type="tel" name="telephone" tabindex="3" required>
                 </label>
         </div>
@@ -117,14 +117,6 @@
             </script>
     </div>        
 		<div class="footer">
-			<div id="footer-menu">
-                    <ul>
-                      <li><a href="services.php">Services</a></li>
-                      <li><a href="gallery.php">Gallery</a></li>
-                      <li><a href="testimonials.php">Testimonials</a></li>
-                      <li><a href="contact.php">Contact Us</a></li>
-                </ul>
-                </div>
                 <div id="footer-text">
                 <p>&copy;2014 Website design by 7-6-2</p>
                 </div>

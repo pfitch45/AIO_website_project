@@ -7,6 +7,7 @@
 	<link href="css/index_pic.css" type="text/css" rel="stylesheet"/>
 	<link href="css/bootstrap.css" type="text/css" rel="stylesheet"/>
  	<link href="css/background.css" type="text/css" rel="stylesheet"/>
+ 	<link href='http://fonts.googleapis.com/css?family=Michroma' rel='stylesheet' type='text/css'>
  	<link href="css/footer.css" type="text/css" rel="stylesheet"/>
  	<link href="css/span_aid.css" type="text/css" rel="stylesheet"/>
 
@@ -20,10 +21,11 @@
 				<div id="info">
 					<strong>(510)755-2974</strong>
 				</div>     
-				  <div class="lista"><ul>
+				  <div class="lista">
+				  	<ul>
 					  <li><a href="servi.php">Servicios</a></li>
 					  <li><a href="galeria.php">Galeria</a></li>
-					  <li><a href="recom.php">Recomendacio&#769nes</a></li>
+					  <li><a href="infoSpan.php">Informacio&#769n</a></li>
 					  <li><a href="coms.php">Comuniquese</a></li> 
 				</ul>
 			  </div>
@@ -32,9 +34,9 @@
 			    <h3>Armado e Instalacio&#769n de Muebles</h3>
 			</div>  
 	        </div>
-		</div>
-		<div class="main-container">	
+		</div>	
 		<div class="main">
+			<div id="main-text">
 			<p>Sample Text</p>
 			<p>Lorem Ipsum</p>
 			<p>Sample Text</p>
@@ -48,10 +50,12 @@
 	       	<p>Sample Text</p>
 	       	<p>Sample Text</p>
 	       	<p>Sample Text</p>    	
-        </div>	   
+        	</div>	   
         </div>
 		<div class="footer">
+			<div id="footer-text">
 			<p>&copy;2014 sitio disen&#771ado por 7-6-2</p>
+			</div>
 		</div>
 	</body>
 </html>

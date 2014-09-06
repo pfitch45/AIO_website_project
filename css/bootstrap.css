@@ -275,7 +275,7 @@ hr {
 .carousel {
   position: relative;
   top: 20px;
-  margin: 24px;
+
 }
 .carousel-inner {
   position: relative;
@@ -323,19 +323,21 @@ hr {
 .carousel-inner > .active.right {
   left: 100%;
 }
+
 .carousel-control {
   position: absolute;
   top: 0;
   left: 0;
   bottom: 0;
-  width: 15%;
+  width: 25%;
   opacity: 0.5;
   filter: alpha(opacity=50);
-  font-size: 20px;
+  font-size: 100px;
   color: #ffffff;
   text-align: center;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 }
+
 .carousel-control.left {
   background-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, 0.5) 0%), color-stop(rgba(0, 0, 0, 0.0001) 100%));
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 100%);

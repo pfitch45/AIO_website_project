@@ -4,10 +4,9 @@
   	  <meta charset="utf-8">
   	  <title>Servicios</title>
   	  <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
-
   	  <link href="css/bootstrap.css" type="text/css" rel="stylesheet"/>
-
   	  <link href="css/background.css" type="text/css" rel="stylesheet"/>
+  	  <link href='http://fonts.googleapis.com/css?family=Michroma' rel='stylesheet' type='text/css'>
   	  <link href="css/footer.css" type="text/css" rel="stylesheet"/>
   	  <link href="css/span_aid.css" type="text/css" rel="stylesheet"/>	
   </head>
@@ -24,7 +23,7 @@
 				  	<ul>
 					  <li><a href="servi.php">Servicios</a></li>
 					  <li><a href="galeria.php">Galeria</a></li>
-					  <li><a href="recom.php">Recomendacio&#769nes</a></li>
+					  <li><a href="infoSpan.php">Informacio&#769n</a></li>
 					  <li><a href="coms.php">Comuniquese</a></li>
 				    </ul>
 			  </div>
@@ -38,7 +37,9 @@
 			<p>No hay nada aqui todavia.</p>
 		</div>	
 		<div class="footer">
+			<div id="footer-text">
 			<p>&copy;2014 sitio disen&#771ado por 7-6-2</p>
+			</div>
 		</div>
       </body>
 </html>    

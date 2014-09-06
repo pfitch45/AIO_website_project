@@ -4,11 +4,10 @@
 	<meta charset="utf-8">
    	<title>All In One Services: Gallery</title>
    	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
-
    	<link href="css/bootstrap.css" type="text/css" rel="stylesheet"/>
-
 	<link href="css/upper.css" type="text/css" rel="stylesheet"/>
  	<link href="css/background.css" type="text/css" rel="stylesheet"/>
+ 	<link href='http://fonts.googleapis.com/css?family=Michroma' rel='stylesheet' type='text/css'>
  	<link href="css/footer.css" type="text/css" rel="stylesheet"/>
 </head>
 	<body>
@@ -24,7 +23,7 @@
 				  	<ul>
 					  <li><a href="services.php">Services</a></li>
 					  <li><a href="gallery.php">Gallery</a></li>
-					  <li><a href="testimonials.php">Testimonials</a></li>
+					  <li><a href="info.php">Information</a></li>
 					  <li><a href="contact.php">Contact Us</a></li> 
 				</ul>
 			  </div>
@@ -149,14 +148,6 @@
 		        </div>
 	    </div>        
 		<div class="footer">
-			<div id="footer-menu">
-                    <ul>
-                      <li><a href="services.php">Services</a></li>
-                      <li><a href="gallery.php">Gallery</a></li>
-                      <li><a href="testimonials.php">Testimonials</a></li>
-                      <li><a href="contact.php">Contact Us</a></li>
-                </ul>
-                </div>
                 <div id="footer-text">
                 <p>&copy;2014 Website design by 7-6-2</p>
                 </div>

@@ -4,10 +4,9 @@
   	  <meta charset="utf-8">
   	  <title>Comuniquese</title>
   	  <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
-
   	  <link href="css/bootstrap.css" type="text/css" rel="stylesheet"/>
-
   	  <link href="css/background.css" type="text/css" rel="stylesheet"/>
+      <link href='http://fonts.googleapis.com/css?family=Michroma' rel='stylesheet' type='text/css'>
   	  <link href="css/footer.css" type="text/css" rel="stylesheet"/>
   	  <link href="css/span_aid.css" type="text/css" rel="stylesheet"/>
   	  <link href="css/form.css" type="text/css" rel="stylesheet"/>
@@ -32,7 +31,7 @@
     			  	<strong>
     				  <li><a href="servi.php">Servicios</a></li>
     				  <li><a href="galeria.php">Galeria</a></li>
-    				  <li><a href="recom.php">Recomendacio&#769nes</a></li>
+    				  <li><a href="infoSpan.php">Informacio&#769n</a></li>
     				  <li><a href="coms.php">Comuniquese</a></li>  
     			</ul>
     		  </div>
@@ -48,19 +47,19 @@
         <h4>Someta sus datos, y nosotros estaremos en contacto dentro de 24 horas.</h4>
         <div>
                 <label>
-                        <span>Nombre</span>
+                        <span>Su Nombre</span>
                         <input type="text" name="Name" tabindex="1" required autofocus>
                 </label>
         </div>
         <div>
                 <label>
-                        <span>Direccio&#769n de correo electro&#769nico: </span>
+                        <span>Su Direccio&#769n de correo electro&#769nico: </span>
                         <input type="email" name="Email" tabindex="2" required>
                 </label>
         </div>
         <div>
                 <label>
-                        <span>Tele&#769fono</span>
+                        <span>Su Numero Telefonico</span>
                         <input type="tel" name="Email" tabindex="3" required>
                 </label>
         </div>
@@ -117,7 +116,9 @@
             </script>	
     </div>        	
 		<div class="footer">
-			<p>&copy;2014 sitio disen&#771ado por 7-6-2</p>
+            <div id="footer-text">
+            <p>&copy;2014 sitio disen&#771ado por 7-6-2</p>
+            </div>
 		</div>   
       </body>
 </html>    
