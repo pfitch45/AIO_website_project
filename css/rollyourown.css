@@ -1,0 +1,240 @@
+
+
+body {
+	width: 890px;
+	overflow: auto;
+	margin: 0 auto;
+}
+
+.menu {
+	list-style-type: none;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 100px;
+	margin-top: 100px;
+}
+
+.menu ul {
+	padding: 0;
+}
+
+.menu li {
+	display: inline;
+	font-size: 15px;
+	font-family: "Cantarell", sans-serif;
+	margin: 0 0 0 30px;
+}
+
+.content {
+	color: #c43800;
+	font-family: Helvetica;
+	font-size: 18px;
+	line-height: 24px;
+	margin: 0 auto;
+	width: 890px;
+	padding: 0;
+}
+
+.footer {
+	top: 200px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	text-align: center;
+	font-family: 'Cantarell', sans-serif;
+}
+
+.footer a:link{ 
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.footer a:visited {
+	color: #ffffff;
+}
+
+.footer a:hover {
+	color: green;
+	text-decoration: none;
+}
+
+.footer a:active {
+	color: red;
+}
+
+
+/* ^^^ All of the above are global! ^^^ Beneath starts CSS for index page only!
+Gallery page also uses index-menu link attributes  */
+
+#index-menu li a:link {
+	text-decoration: none;
+	color: #000000;
+}
+
+#index-menu li a:visited {
+	color: #000000;
+}
+
+#index-menu li a:hover {
+	color: green;
+	text-decoration: none;
+}
+
+#index-menu li a:active {
+	color: red;
+}
+
+.landing-message {
+	background-color: rgba(0,0,0,0.8);
+	text-align: center;
+	margin: 0 auto;
+	border-radius: 10px;
+}
+
+#title, 
+span, 
+h1, 
+h2 {
+	color: #ffffff;
+} 
+
+#title span {
+	font-size: 60px;
+	font-family: 'Poiret One', sans-serif;
+	font-weight: bolder;
+	position: relative;
+	top: 30px;
+}
+
+#title, h1, h2 {
+	font-family: 'Poiret One', sans-serif;
+}
+
+#title h1 {
+	position: relative;
+	padding: 20px;
+}
+
+#title h2 {
+	position: relative;
+	padding: 10px;
+	line-height: 40px;
+}
+/* All of the above applies only to index page! Beneath starts CSS for service/ifno page. */
+#service-menu li a:link {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+#service-menu li a:visited {
+	color: #ffffff;
+}
+
+#service-menu li a:hover {
+	color: green;
+	text-decoration: none;
+}
+
+#service-menu li a:active {
+	color: red;
+}
+
+#outer-content-service {
+	background-color: rgba(255,255,255,0.75);
+	text-align: center;
+	margin: 0 auto;
+	border-radius: 10px;
+}
+
+#inner-content-service {
+	padding: 30px;
+
+}
+/* ^^^ Service page CSS ^^^. Gallery page starts below */
+
+#outer-content-gallery {
+	background-color: rgba(0,0,0,0.8);
+	text-align: center;
+	margin: 0 auto;
+	border-radius: 10px;
+	height: 700px;
+}
+
+#gallery-text {
+	font-family: "Cantarell", sans-serif;
+	color: #ffffff;
+	padding: 25px;
+}
+
+#gallery-text p {
+	font-family: Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+/*Gallery ends.  Contact page CSS starts below. Contact page uses same link CSS as index */
+
+#outer-content-contact {
+	background-color: rgba(0,0,0,0.8);
+	margin: 0 auto;
+	border-radius: 10px;
+	text-align: center;
+	height: 710px;
+}
+
+#contact-text h3 {
+	color: #ffffff;
+	padding: 25px;
+	margin: 0 auto;
+	font-weight: normal;
+	font-family: Helvetica;
+}
+
+#formContainer {
+    height: 625px;
+	box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box; 
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form input[type="tel"],
+#contact-form textarea {
+    width:75%;
+    box-shadow:inset 0 1px 2px #DDD, 0 1px 0 #FFF;
+    -webkit-box-shadow:inset 0 1px 2px #DDD, 0 1px 0 #FFF;
+    -moz-box-shadow:inset 0 1px 2px #DDD, 0 1px 0 #FFF;
+    border:1px solid #CCC;
+    background:rgba(230,223,219,0.5);
+    margin:35px;
+    padding:10px;
+    border-radius:20px;
+    outline-color: #c43800;
+    color: #000000;
+}
+
+.footer-contact {	
+	margin-bottom: 50px;
+	margin-top: 50px;
+	padding: 50px;
+	text-align: center;
+	font-family: 'Cantarell', sans-serif;
+}
+
+.footer-contact a:link{ 
+	text-decoration: none;
+	color: #000000;
+}
+
+.footer-contact a:visited {
+	color: #000000;
+}
+
+.footer-contact a:hover {
+	color: green;
+	text-decoration: none;
+}
+
+.footer-contact a:active {
+	color: red;
+}

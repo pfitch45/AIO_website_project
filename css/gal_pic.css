@@ -1,0 +1,9 @@
+html {
+  background: url(../images/gallery.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/gallery.jpg', sizingMethod='scale');
+-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/gallery.jpg', sizingMethod='scale')";
+}
