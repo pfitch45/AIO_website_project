@@ -24,10 +24,18 @@
 			<div id="outer-content-service">
 				<div id="inner-content-service">
 					<h3>Services and Information</h3>
-					<p>Flexitarian forage kitsch selfies, biodiesel small batch ethnic lo-fi pop-up Truffaut Schlitz meggings Neutra. Authentic Bushwick Truffaut distillery ennui Etsy, slow-carb hella. Tonx next level whatever bicycle rights. Chia vegan banjo paleo, Vice beard Carles. Stumptown YOLO wolf, Pitchfork meh Marfa twee street art. 8-bit semiotics farm-to-table vinyl vegan. Four loko McSweeney's American Apparel Truffaut pork belly, Brooklyn Pitchfork whatever polaroid.
-					PBR&B paleo small batch crucifix, Shoreditch semiotics squid post-ironic Marfa freegan. Gentrify pickled quinoa, meh dreamcatcher fap butcher fashion axe. McSweeney's mustache Tonx, literally Echo Park Banksy roof party wayfarers XOXO Carles. Blog gastropub cardigan swag. Mustache synth authentic, +1 cred try-hard art party brunch irony wayfarers roof party. Thundercats Marfa Tumblr, paleo American Apparel hashtag narwhal roof party wayfarers. Thundercats keytar gentrify, sriracha direct trade paleo narwhal asymmetrical American Apparel mumblecore.
-					Carles typewriter Helvetica, stumptown PBR Godard Tonx flexitarian dreamcatcher synth sriracha. Kitsch cornhole bicycle rights Shoreditch, Pitchfork hella synth aesthetic. Pop-up artisan Tumblr, Schlitz kogi mustache four loko banh mi fixie swag. Viral pork belly keffiyeh, pug try-hard Austin Thundercats irony. Wes Anderson Schlitz ugh bicycle rights next level mumblecore small batch, retro literally Vice fanny pack typewriter banjo stumptown kogi. Selvage gluten-free normcore, banjo PBR&B you probably haven't heard of them keffiyeh roof party. Cred freegan craft beer, 90's stumptown Kickstarter four loko meh quinoa Blue Bottle Odd Future XOXO DIY asymmetrical biodiesel.
-					</p>
+					<h4>Overview</h4>
+					<p>All In One Furniture is a flexible company that excels in piecing together RTA (Ready-to-Assemble) furniture. We also install items such as TV mounts, whiteboards, chatboards, shelves, pictures, etc.</p><br>  
+					<p>All In One is confident with the ability to get the job done right: Whether it's large  and complex like a closet system or full home enterntainment system, or even your backyard patio picnic table--we can get it done.  We also perform office-oriented assembly and installation services and have several years' experience doing so. <br>
+					<p>We are very familiar with RTA furniture sold at major retailers including Ikea, West Elm, Staples, Sauder, Coaster, Overstock.com, CB2, Crate and Barrel, South Shore, The Container Store, Bush, Office Max, Easy Closet, Target, Walmart, Office Depot, just to name a few.</p>
+					<h4>Pricing and Availability</h4>
+					<p>All In One offers flat, competitve rates for jobs. The minimum service fee is $59.99.</p>
+					<p>To get specific pricing information, please <a href="contact.php"> contact us</a> or call us at (510)755-2974. We can go over your individual needs and how to best meet them.</p><br>
+					<p>All In One is quick to respond to service calls after being set up by the customer. We always carry out same-day service whenever possible.</p>
+					<p>Not only is our company quick to start working for you, we are also very flexible with scheduling.  Feel free to call us!</p>
+					<h4>About</h4>
+					<p>All In One Furniture Assembly was started by Alfonso, our company's original handyman. He has over thirteen years of experience fixing, assembling, and delivering a wide varriety of furniture styles, from modern Scandinavian designs to rustic traditonal Mexican pieces to houses and offices.  After working for companies like Macy's, JC Penney, and Ikea, Alfonso noticed that many of his customers&bsp
+						needed help with their furniture purchases, so he decided to start All In One to meet his customers' needs.  Alfonso also has worked closely and exclusively with many local area tech office teams.</p>
 					<a href="http://www.yelp.com/biz/all-in-one-furniture-assembly-oakland" target="_blank"><img src="images/yelp.jpg"></a>
 				</div>	
 			</div>
