@@ -8,9 +8,13 @@ if(isset($_POST['email'])) {
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
  
-    $email_to = "pfitch45@gmail.com";
+    $email_to = "alflopez@live.com";
  
-    $email_subject = "PHP FORM TEST";
+<<<<<<< HEAD
+    $email_subject = "AIO EMAIL";
+=======
+    $email_subject = "MENSAJE:SITIO/A.I.O.";
+>>>>>>> FETCH_HEAD
  
      
  
