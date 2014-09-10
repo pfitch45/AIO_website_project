@@ -10,13 +10,8 @@ if(isset($_POST['email'])) {
  
     $email_to = "alflopez@live.com";
  
-<<<<<<< HEAD
-    $email_subject = "AIO EMAIL";
-=======
-    $email_subject = "MENSAJE:SITIO/A.I.O.";
->>>>>>> FETCH_HEAD
- 
-     
+
+    $email_subject = "AIO Message";
  
      
  
