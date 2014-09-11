@@ -4,6 +4,11 @@
         <meta charset="utf-8">
         <title>All In One Services: Contact Us</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <meta name ="description" content="If you need someone to handle your home or office furniture assembly or installation needs, don't hesitate to call AIO for fast and professional service.">
+        <meta property="og:site_name" content="All In One Services">
+        <meta property="og:url" content="http://www.bayareafurnitureassembly.com">
+        <meta property="og:locale" content="en_US">
+        <meta property="og:description" content="AIO can help assemble and install your furniture reliably! Call us for fast and professional service. Located in the San Francisco Bay Area">
         <link rel="icon" type="image/ico" href="images/favicon.ico">
         <link rel="stylesheet" type="text/css" href="css/radio_bg.css">
         <link rel="stylesheet" type="text/css" href="css/rollyourown.css">
